@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  BottomBarViewDemo
+//
+//  Created by ug on 2020/6/19.
+//  Copyright © 2020 yy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define _NSString(fmt, ...)  [NSString stringWithFormat:(fmt), ##__VA_ARGS__]
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NSObject+Utils.h"
+#import <YYCategories/YYCategories.h>
+#import <MJExtension/MJExtension.h>
+#import "UIView+Frame.h"
+#endif /* PrefixHeader_pch */
